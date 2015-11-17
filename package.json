@@ -1,0 +1,21 @@
+{
+	"private": true,
+	"license": "WTFPL",
+	"scripts": {
+		"compile": "gulp compile",
+		"watch": "gulp watch",
+		"run": "node lib/hello"
+	},
+	"dependencies": {
+		"amdefine": "1.0.0",
+		"msl": "mason-lang/msl"
+	},
+	"devDependencies": {
+		"gulp": "3.9.0",
+		"gulp-cli": "0.3.0",
+		"gulp-mason": "mason-lang/gulp-mason",
+		"gulp-plumber": "1.0.1",
+		"gulp-sourcemaps": "1.6.0",
+		"gulp-watch": "4.3.5"
+	}
+}
